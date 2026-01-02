@@ -81,9 +81,9 @@ You can run it locally by simply opening the `index.html` file in your browser.
 
 
 
---- # 🇧🇷 PT-BR 🇧🇷 #---
-
-
+---
+## PT-BR
+---
 
 # :globe_with_meridians: Meu Portfólio
 
