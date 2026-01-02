@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="\css\style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="#home" class="logo">
+        <span>Seceip</span>
+      </a>
+      
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="lang-switch">
+        <a href="/en/" class="active">EN</a>
+        <span>|</span>
+        <a href="/pt/" >PT</a>
+      </div>
+
+      <a class="gradient-btn"
+         href="mailto:joaocavassini@gmail.com
+                  ?subject=Contact from Portfolio
+                  &body= Hello Joao,%0D%0A%0D%0AI saw your portfolio and would like to talk.">
+        Contact Me
+      </a>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, I'm <span>João</span></h1>
+        <h2>Also known as <span>Seceip.</span></h2>
+        <h3>
+          I'm a <span>Junior Full Stack Developer</span>
+        </h3>
+        <p>Software Development & Computer Science student. I build complete applications using modern technologies, from frontend to backend.</p>
+
+        <div class="social-icons">
+          <a href="https://github.com/Seceip" target="blank" rel="noopener noreferrer">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/joao-pedro-cavassini-9791751a4/" target="blank" rel="noopener noreferrer">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+
+          <a href="https://discord.com/users/356979385569509387" target="blank" rel="noopener noreferrer">
+            <i class="bx bxl-discord"></i>
+          </a>
+
+          <a href="https://steamcommunity.com/id/seceip/" target="blank" rel="noopener noreferrer">
+            <i class="bx bxl-steam"></i>
+          </a>
+        </div>
+
+        <div class="btn-group">
+          <a href="mailto:joaocavassini@gmail.com
+                  ?subject=Hire Inquiry - From Portfolio
+                  &body= Hello João,%0D%0A%0D%0AI would like to get in touch regarding a work opportunity.
+                  %0D%0A%0D%0ABest regards," class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+        </div>
+
+      </div>
+      <div class="home-img">
+        <img src="\images\image.jpg" alt="">
+      </div>
+    </section>
+
+
+
+    <section class="services" id="services">
+      <h2 class="heading">Services</h2>
+
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxs-video-recording"></i>
+            <h4>Video Editing & Artworks</h4>
+            <p>If you enjoy my videos or artworks available in Youtube and Steam, feel free to contact me so we can work together.</p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-book-open"></i>
+            <h4>Translations & Voice Over</h4>
+            <p>I offer a Brazilian Portuguese(PT-BR) localization services, as well as voice-over and dubbing projects. Check my videos to see examples of my work.</p>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code-curly"></i>
+            <h4>Full Stack Development</h4>
+            <p>I'm available for simple to medium-sized development projects, similar to the ones showcased below. Feel free to contact me to discuss your idea.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+     <section class="about" id="about">
+
+      <div class="about-img">
+        <img src="\images\image2.png" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>I'm a Junior Full Stack Developer and a Software Development and Computer Science student. I enjoy working across the full stack, learning new technologies, and improving my problem-solving skills through hands-on projects.<br><br> I value clean code, good practices and continuous learning. In addition to development, I have experience with English translation and voice-related work, which helps me communicate effectively and work with international content and teams.<br><br>Outside of development, I enjoy exploring complex systems, including games, which has reinforced my interest in logic, optimization and how different systems interact.</p>
+      </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+
+      <h2 class="section"><span>Software Development</span></h2>
+      <div class="projects-box">
+        <div class="project-card"
+            data-images="HB1.png, HB2.png, HB3.png">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/HB1.png" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>House Builder</h3>
+            <p>
+              Educational game developed with Unity and C# designed to support
+              children with learning difficulties through simple interactions,
+              visual feedback, and accessible game mechanics.
+              <br><br>
+              <strong>Tech:</strong> Unity · C# · Game Development · Accessibility
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="HG1.jpg, HG2.png, HG3.png, HG4.png">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/HG1.jpg" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>Expresso de Hogwarts</h3>
+
+             <p> 
+              Custom game server project focused on custom server-side features,
+              including spell systems, game mechanics, and event handling.
+              Emphasis on performance, system design, and iterative testing.  
+              <br><br>
+              <strong>Tech:</strong> Lua · MySQL · JSON · Server-side Scripting
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="OS.png, OS2.png, OS3.png, OS4.png, OS5.png">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/OS.png" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>Ounabara School</h3>
+
+            <p>
+              Interactive quiz game developed with Unity and C#, focused on
+              user interaction, game flow control, and dynamic question handling.
+              Includes quiz logic, score tracking, and UI feedback for an strong gameplay experience.
+              <br><br>
+              <strong>Tech:</strong> Unity · C# · UI Development · Game Logic
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="NN2.png, NN1.png">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/NN2.png" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>Suzan Village</h3>
+            
+            <p>
+              Game developed in Portugol featuring multiple screens,
+              character movement and selection, story progression,
+              objectives, health system, challenges, and quiz mechanics.
+              Focused on game flow, logic implementation, and user interaction.
+              <br><br>
+              <strong>Tech:</strong> Portugol · Game Logic
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="Site1.jpg, Site2.png, Site3.png, Site4.jpg">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/Site1.jpg" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>Expresso Site</h3>
+
+            <p>
+              Game-based web platform integrated with backend services,
+              database, and REST APIs for mobile communication.
+              Focused on data persistence and synchronization between
+              web and mobile applications.  
+              <br><br>
+              <strong>Tech:</strong> JavaScript · PHP · SQL · REST API · HTML · CSS · Android Studio 
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="PM1.png, PM2.png">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/PM1.png" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>Pet Memory</h3>
+            <p>
+                Mobile app for pet memorial services combined with a virtual pet
+                system featuring levels, happiness, and care mechanics.
+                Includes user accounts, authentication, and support chat.
+                Includes authentication, account management, and support chat.
+              <br><br>
+              <strong>Tools & Focus:</strong> Figma · Virtual Pet · Mobile UX
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="PE.png, PE2.png, PE3.png">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/PE.png" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>Inventory Manager</h3>
+
+            <p>
+              Inventory management application designed to track products,
+              stock levels, and movements in a structured and efficient way.
+              Features include product registration, stock updates,
+              and basic reporting for inventory control.
+              <br><br>
+              <strong>Tech:</strong> C# · SQL Server · CRUD
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="CG.png">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/CG.png" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>Expresso App</h3>
+
+            <p>
+              Android integrated with web project with user accounts,
+              shared database and a spell creation system based on
+              element combinations to create spells, with all progress and data shared between the website and the mobile app.
+              <br><br>
+              <strong>Tech:</strong> Android Studio · Java · SQL · REST API
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="SD.png, SD2.png">
+
+            <div class="project-image">
+              <button class="arrow left">‹</button>
+              <img src="/images/SD.png" alt="">
+              <button class="arrow right">›</button>
+            </div>
+            <h3>Colorblind Simon Says</h3>
+
+            <p>
+              UX/UI design project created in Figma for an Android version of Simon Says,
+              focused on accessibility for visually impaired users and players with color
+              vision deficiency.
+              <br><br>
+              <strong>Tools & Focus:</strong> Figma · Accessibility · Inclusive Design · Mobile UX
+            </p>
+
+            <div class="btn">View Project</div>
+        </div>
+      </div>
+
+      <h2 class="section2"><span>Localization & Voice Acting</span></h2>
+      <h2 class="subsection">Voice Over</h2>
+      <div class="projects-box">
+        <div class="project-card"
+            data-images="HadesDub.png"
+            data-video="https://youtu.be/NP85oVHgFT0">
+
+            <div class="project-image">
+              <img src="images/HadesDub.png" alt="">
+              <a  class="play-video"
+                  href="https://www.youtube.com/watch?v=NP85oVHgFT0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ver vídeo no YouTube">▶</a>
+            </div>
+            <h3>Hades 2: Uma Dublagem Completa</h3>
+
+            <p>
+              The Hades 2 voice over project is aimed at Brazilian fans who want
+              a full dubbing experience in their native language. The project
+              is large in scope and involves extensive voice work and adaptation.
+              <br><br>
+              <strong>Tech & Tools:</strong> ElevenLabs · SeceipEdition · Foobar · FMOD
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+             data-images="HadesDub.png"
+            data-video="https://youtu.be/NP85oVHgFT0">
+
+            <div class="project-image">
+              <img src="images/SkyrimDub.png" alt="">
+              <a  class="play-video"
+                  href="https://www.youtube.com/watch?v=3_lkCRlTeTM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Ver vídeo no YouTube">▶</a>
+            </div>
+            <h3>Skyrim: Dragonborn Dublado</h3>
+
+            <p>
+              The Dragonborn Voice Over project is aimed at Brazilian fans who want
+              a dubbed character experience in their native language.
+              The project enables voice acting for the Dragonborn,
+              a character who does not speak at all.
+              <br><br>
+              <strong>Tech & Tools:</strong> ElevenLabs · DVBO · Excel
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+      </div>
+
+      <h2 class="subsection2">Translations</h2>
+
+        <div class="projects-box">
+        <div class="project-card"
+            data-images="MPS.png">
+
+            <div class="project-image">
+              
+              <img src="/images/MPS.png" alt="">
+              
+            </div>
+            <h3>Machine Prog. System</h3>
+
+            <p>Machine Progress System is a mod to the Stardew Valley game. The mod adds a lot more of new content to the game with new machines and products, as well new item's to discover.
+              <br><br>
+              <strong>Skills:</strong> EN → PT-BR Translation · Localization
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="PnM.png, PnM2.png, PnM3.png">
+
+            <div class="project-image">
+              
+              <img src="/images/PnM.png" alt="">
+              
+            </div>
+            <h3>Pony Menu</h3>
+            <p>Pony Menu is a mod to Hades II that adds many ways to interact with the game, like spawning boons and items. The mod adds several features and a lot of text in it.
+              <br><br>
+              <strong>Skills:</strong> EN → PT-BR Translation · Localization
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="TD.png">
+
+            <div class="project-image">
+              
+              <img src="/images/TD.png" alt="">
+              
+            </div>
+
+            <h3>The Depths</h3>
+            <p>The Depths is a mod for Terraria who completely changes the underworld biome on it. It adds several game mechanics, items, NPC's and so much more.
+              <br><br>
+              <strong>Skills:</strong> EN → PT-BR Translation · Localization
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="WpM.png">
+
+            <div class="project-image">
+              
+              <img src="/images/WpM.png" alt="">
+              
+            </div>
+            <h3>Weapon Mastery</h3>
+            <p>Weapon Mastery is a mod for the game Hades that adds a mastery system for the weapons in the game, changing how the weapons behave. The mod has a experience bar for each weapon.
+              <br><br>
+              <strong>Skills:</strong> EN → PT-BR Translation · Localization
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="OE.jpg">
+
+            <div class="project-image">
+              
+              <img src="/images/OE.png" alt="">
+              
+            </div>
+            <h3>Olympus Extra</h3>
+            <p>Olympus Extra is a mod for the game Hades that adds new Gods, Boons, Items and many more! It adds several new encounters and dialogue lines, new descriptions and more.
+            <br><br>
+            <strong>Skills:</strong> EN → PT-BR Translation · Localization
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="CM.png">
+
+            <div class="project-image">
+              
+              <img src="/images/CM.png" alt="">
+              
+            </div>
+            <h3>Codex Menu</h3>
+
+            <p>Codex Menu is a mod for Hades that adds a complex interactive menu with many entry's with items, boons and much more. His sucessor is the Pony Menu.
+              <br><br>
+              <strong>Skills:</strong> EN → PT-BR Translation · Localization
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="RsI.png">
+
+            <div class="project-image">
+              
+              <img src="/images/RsI.png" alt="">
+              
+            </div>
+            <h3>Room Secret Indicator</h3>
+
+            <p>Room Secret Indicator is a mod for Hades that adds a text in the screen when a collectable is nearby. It helps the player to find what he is missing in the current room with a text appearing with a sound.
+            <br><br>
+            <strong>Skills:</strong> EN → PT-BR Translation · Localization
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="Vokrii.png">
+
+            <div class="project-image">
+              
+              <img src="/images/Vokrii.png" alt="">
+            
+            </div>
+            <h3>Vokriinator</h3>
+
+            <p>Vokriinator is a mod for the game Skyrim that adds a complex and versatile skill tree for the character. It's like the original game but expanded with so many more interactions and things to combine.
+              <br><br>
+              <strong>Skills:</strong> EN → PT-BR Translation · Localization
+            </p>
+            <div class="btn">View Project</div>
+        </div>
+
+        <div class="project-card"
+            data-images="ComingSoon.png">
+
+            <div class="project-image">
+              
+              <img src="/images/ComingSoon.png" alt="">
+              
+            </div>
+            <h3>Upcoming...</h3>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque harum non animi nisi labore? Ad fugit error veniam repellat explicabo omnis tempore quisquam consequatur amet. Fugit, eum. Autem, sunt veniam!</p>
+            <div class="btn">View Project</div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <div class="contact-card">
+        <p>Feel free to get in touch if you'd like to discuss a project, collaboration, or have any questions.<br>I'm open to new opportunities and always happy to connect.</p>
+        <div class="btn-group">
+          <a href="mailto:joaocavassini@gmail.com
+                  ?subject=Contact from Portfolio
+                  &body= Hello Joao,%0D%0A%0D%0AI saw your portfolio and would like to talk." class="btn">Send a Message</a>
+        </div>
+      </div>
+    
+      
+    </div>
+
+    <footer class="footer">
+      <div class="social-icons">
+          <a href="https://github.com/Seceip" target="blank" rel="noopener noreferrer">
+            <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/joao-pedro-cavassini-9791751a4/" target="blank" rel="noopener noreferrer">
+            <i class="bx bxl-linkedin-square"></i>
+          </a>
+
+          <a href="https://discord.com/users/356979385569509387" target="blank" rel="noopener noreferrer">
+            <i class="bx bxl-discord"></i>
+          </a>
+
+          <a href="https://steamcommunity.com/id/seceip/" target="blank" rel="noopener noreferrer">
+            <i class="bx bxl-steam"></i>
+          </a>
+        </div>
+
+        <ul class="list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about">About Me</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          © João Cavassini | All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="\js\script.js"></script>
+
+  </body>
+</html>
