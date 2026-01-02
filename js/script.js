@@ -7,23 +7,27 @@ menuIcon.onclick = () => {
 }
 
 document.querySelectorAll('.project-card').forEach((card) => {
-        const img = card.querySelector('.project-image img');
-        const right = card.querySelector('.arrow.right');
-        const left = card.querySelector('.arrow.left');
+    const img = card.querySelector('.project-image img');
+    const right = card.querySelector('.arrow.right');
+    const left = card.querySelector('.arrow.left');
 
-        const images = card.dataset.images
-          .split(',')
-          .map(name => '/images/' + name.trim());
+    if (!img || !right || !left) {
+        return;
+    }
 
-        let index = 0;
+    const images = card.dataset.images
+      .split(',')
+      .map(name => '/portfolio/images/' + name.trim());
 
-        right.addEventListener('click', () => {
-          index = (index + 1) % images.length;
-          img.src = images[index];
-        });
+    let index = 0;
 
-        left.addEventListener('click', () => {
-          index = (index - 1 + images.length) % images.length;
-          img.src = images[index];
-        });
-      });
+    right.addEventListener('click', () => {
+      index = (index + 1) % images.length;
+      img.src = images[index];
+    });
+
+    left.addEventListener('click', () => {
+      index = (index - 1 + images.length) % images.length;
+      img.src = images[index];
+    });
+});
