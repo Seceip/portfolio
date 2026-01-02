@@ -8,9 +8,9 @@
       const lang = navigator.language || navigator.userLanguage;
 
       if (lang && lang.toLowerCase().startsWith('pt')) {
-        window.location.replace('/pt/');
+        window.location.replace('pt/');
       } else {
-        window.location.replace('/en/');
+        window.location.replace('en/');
       }
     })();
   </script>
@@ -19,8 +19,8 @@
   <noscript>
     <p>
       Please choose your language:
-      <a href="/en/">English</a> |
-      <a href="/pt/">Português</a>
+      <a href="en/">English</a> |
+      <a href="pt/">Português</a>
     </p>
   </noscript>
 </body>
