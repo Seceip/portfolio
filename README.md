@@ -1,5 +1,3 @@
------- 🇺🇸 EN-US 🇺🇸 ------
-
 # :globe_with_meridians: My Portfolio
 
 Personal portfolio developed to showcase my projects, skills and services being a developer.
@@ -20,7 +18,7 @@ It gathers my main projects and contact information.
 
 ---
 
-## :tools: Technologies Used
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -61,7 +59,7 @@ portfolio/
 
 ---
 
-## :mobile_phone: Responsiveness
+## 📱: Responsiveness
 
 The layout adapts automatically for different screens sizes, delivering a good user experience for desktop and mobile.
 
@@ -81,7 +79,7 @@ You can run it locally by simply opening the `index.html` file in your browser.
 
 
 
------- 🇧🇷 PT-BR 🇧🇷 ------
+------ :🇧🇷: PT-BR :🇧🇷: ------
 
 
 
