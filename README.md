@@ -105,7 +105,7 @@ Ele reúne meus principais projetos e informações de contato.
 
 ---
 
-## :tools: Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
@@ -146,7 +146,7 @@ portfolio/
 
 ---
 
-## :mobile_phone: Responsividade
+## 📱 Responsividade
 
 O layout se adapta automaticamente a diferentes tamanhos de tela, garantindo uma boa experiência tanto em desktops quanto em dispositivos móveis.
 
