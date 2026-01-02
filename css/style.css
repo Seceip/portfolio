@@ -413,9 +413,10 @@ section{
   color: white;
   border: none;
   font-size: 2.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1rem;
   cursor: pointer;
   border-radius: 50%;
+  z-index: 5;
   transition: 0.3s;
   opacity: 0;
 }
@@ -423,10 +424,10 @@ section{
   background: var(--main-color);
 }
 .arrow.left{
-  left: -1.5rem;
+  left: 1rem;
 }
 .arrow.right{
-  right: -1.5rem;
+  right: 1rem;
 }
 .project-card:hover .arrow{
   opacity: 1;
@@ -566,6 +567,9 @@ section{
 
   .projects-box {
     grid-template-columns: 1fr;
+  }
+  .arrow{
+    opacity: 1;
   }
   .arrow.left {
     left: 0.5rem;
