@@ -288,7 +288,7 @@ section{
   justify-content: center;
   align-items: center;
   background-color: var(--main-color);
-  height: 600px;
+  min-height: 600px;
   border-radius: 3rem;
   cursor: pointer;
   border: 5px solid transparent;
@@ -549,7 +549,21 @@ section{
     width: 52vw;
   }
 }
+
 @media (max-width: 768px){
+  .service-info {
+    padding: 3rem 2rem;
+  }
+  .service-info h4{
+    font-size: 2.6rem;
+  }
+  .service-info p{
+    font-size: 1.3rem;
+  }
+  .service-info i{
+    font-size: 6rem;
+  }
+
   .projects-box {
     grid-template-columns: 1fr;
   }
