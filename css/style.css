@@ -379,6 +379,7 @@ section{
 .project-image{
   position: relative;
   width: 300px;
+  overflow: hidden;
 }
 .project-image img{
   width: 100%;
@@ -546,5 +547,16 @@ section{
   }
   .about img{
     width: 52vw;
+  }
+}
+@media (max-width: 768px){
+  .projects-box {
+    grid-template-columns: 1fr;
+  }
+  .arrow.left {
+    left: 0.5rem;
+  }
+  .arrow.right {
+    right: 0.5rem;
   }
 }
