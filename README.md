@@ -63,6 +63,8 @@ portfolio/
 
 The layout adapts automatically for different screens sizes, delivering a good user experience for desktop and mobile.
 
+---
+
 🌐 Internationalization (i18n)
 
 The website supports multiple languages (EN and PT-BR) using URL-based routing.
