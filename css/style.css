@@ -41,26 +41,15 @@ body{
   color: var(--main-color);
   display: none;
 }
-.logo-link {
-  display: inline-flex;
-  align-items: center;
+.logo{
+  font-size: 3rem;
+  color: var(--text-color);
+  font-weight: 800;
   cursor: pointer;
+  transition: 03.s ease-in-out;
 }
-.logo-icon .bg {
-  fill: #0f172a;
-}
-.logo-icon .text {
-  fill: #6d28d9;
-  font-size: 34px;
-  font-weight: 700;
-  font-family: Inter, Arial, sans-serif;
-  transition: fill 0.25s ease, transform 0.15s ease;
-}
-.logo-link:hover .text {
-  fill: #ea580c;
-}
-.logo-link:active .text {
-  transform: scale(0.92);
+.logo:hover{
+  transform: scale(1.1);
 }
 span{
   background: linear-gradient(
