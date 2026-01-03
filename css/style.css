@@ -29,6 +29,7 @@ body{
   width: 32px;
   height: 32px;
   cursor: pointer;
+  pointer-events: all;
 }
 .logo-icon .bg {
   fill: #0f172a;
@@ -40,6 +41,7 @@ body{
   font-weight: 700;
   font-family: Inter, Arial, sans-serif;
   transition: fill 0.25s ease, transform 0.15s ease;
+  pointer-events: all;
 }
 .logo-icon:hover .text {
   fill: var(--secondary-color);
